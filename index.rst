@@ -92,11 +92,11 @@ CyVerse Discovery Environment
 
 #. The menu bar at the top is where you can:
 
-#. #. Upload/Download data
+##. Upload/Download data
 
-#. #. Create folders
+##. Create folders
 
-#. #. Share data
+##. Share data
 
 ----
 
