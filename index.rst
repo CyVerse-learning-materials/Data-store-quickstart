@@ -42,7 +42,7 @@ Prerequisites
      - |Download Cyberduck|
    * - i-commands  
      - These are the command line tools to access the data store
-     - | `Mac iCommands Installer 4.1.9 <https://wiki.cyverse.org/wiki/download/attachments/28117338/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472845229000&api=v2>`or `Linux binaries and source <https://files.renci.org/pub/irods/releases/4.1.12/>`
+     - | `Mac iCommands Installer 4.1.9 <https://wiki.cyverse.org/wiki/download/attachments/28117338/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472845229000&api=v2>`_ or `Linux binaries and source <https://files.renci.org/pub/irods/releases/4.1.12/>`_
 
 Platform(s)
 ~~~~~~~~~~~
@@ -59,7 +59,7 @@ Platform(s)
       - Interface
       - Link
       - Platform Documentation
-      - Quick Start
+      - Manual/Guide
     * - Data Store
       - GUI/Command line
       - |Data Store|
@@ -80,8 +80,12 @@ Platform(s)
 CyVerse Discovery Environment
 ~~~~~~~~~~~~~~~~~~~~~
 
-1. Step one
-2. Step two
+1. Log into the CyVerse Discovery Environment: https://de.cyverse.org
+2. Press the "Data" icon on the left
+3. That opens the data management window where you can:
+	- Upload data
+	- 
+
 
 ----
 
