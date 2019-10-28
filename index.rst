@@ -80,23 +80,23 @@ Platform(s)
 CyVerse Discovery Environment
 ~~~~~~~~~~~~~~~~~~~~~
 
-# Open a web browser
+#. Open a web browser
 
-# Log into the CyVerse Discovery Environment: https://de.cyverse.org
+#. Log into the CyVerse Discovery Environment: https://de.cyverse.org
 
-# Press the "Data" icon on the left
+#. Press the "Data" icon on the left
 
-# That opens the data management window 
+#. That opens the data management window 
 
-# The navigation bar on the left is where you navigate your folder, public folders, and folders/files shared with you
+#. The navigation bar on the left is where you navigate your folder, public folders, and folders/files shared with you
 
-# The menu bar at the top is where you can:
+#. The menu bar at the top is where you can:
 
-# # Upload/Download data
+#. #. Upload/Download data
 
-# # Create folders
+#. #. Create folders
 
-# # Share data
+#. #. Share data
 
 ----
 
