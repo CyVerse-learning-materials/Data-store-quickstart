@@ -81,9 +81,13 @@ CyVerse Discovery Environment
 ~~~~~~~~~~~~~~~~~~~~~
 
 #. Open a web browser
+ 
 #. Log into the CyVerse Discovery Environment: https://de.cyverse.org
+ 
 #. Press the "Data" icon on the left
+ 
 #. That opens the data management window 
+ 
 #. The navigation bar on the left is where you navigate your folder, public folders, and folders/files shared with you
 #. The menu bar at the top is where you can:
 	#. Upload/Download data
@@ -94,21 +98,17 @@ CyVerse Discovery Environment
 Cyberduck
 ~~~~~~~~~
 
-#. Download |cyberduck_link| for your operating system;
-     follow the installation instructions.
-
+#. Download and install `Cyberduck <https://cyberduck.io/>`_ 
 #. Download the CyVerse `configuration profile <https://wiki.cyverse.org/wiki/download/attachments/18188197/CyVerseDataStore.cyberduckprofile?version=1&modificationDate=1568665373988&api=v2>`_ .
-     Double-click on the downloaded file - this should open the installed
-     Cyberduck software.
+	#. Double-click on the downloaded file - this should open the installed Cyberduck software.
 
-#. In the Cyberduck configuration window, enter your **CyVerse username** in the field 'iPlant username'.
+#. Enter your **CyVerse username** in the field 'iPlant username'.
 
-#. Under 'Advanced Options' ensure 'Transfer Files' option is set to **'Open Multiple Connections'**. Close this window - your entries will be automatically saved.
+#. Under 'Advanced Options' set 'Transfer Files' to **'Open Multiple Connections'**. 
 
 #. Double-click on the Data Store bookmark in the Cyberduck window. Enter your CyVerse credentials.
 
-You should now be connected to the CyVerse Data Store and viewing the contents
-of your home directory.
+You should now be connected to the CyVerse Data Store and viewing the contents of your home directory.
 
 ----
 
