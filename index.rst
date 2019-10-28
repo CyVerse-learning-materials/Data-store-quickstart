@@ -16,7 +16,7 @@ Goal:  Simple steps to get setup with the CyVerse Data Store
 	:maxdepth: 2
 
 	CyVerse Discovery Environment <self>
-	CyberDuck <self>
+	Cyberduck <self>
 	Command Line <self>
 
 -----
@@ -30,7 +30,6 @@ Downloads, access, and services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *In order to complete this tutorial you will need access to the following services/software*
-
 
  .. list-table::
    :header-rows: 1
@@ -83,24 +82,35 @@ Platform(s)
 *Get started*
 --------------
 
+CyVerse Discovery Environment
+~~~~~~~~~~~~~~~~~~~~~
+
+1. Step one
+2. Step two
+
+----
+
+Cyberduck
+~~~~~~~~~
+
+1. Step one
+2. Step two
+
+----
+
+Command Line
+~~~~~~~~~~~~
+
 1. Step one
 2. Step two
 
 ----
 
 
-
 *Summary*
 ~~~~~~~~~~~
 
-
-**Next Steps:**
-
-Some common next steps include:
-
-1. Step
-
-2. Step
+You now have the power to move data.  Use your power wisely.
 
 ----
 
