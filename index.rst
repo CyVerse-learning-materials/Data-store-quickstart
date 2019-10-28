@@ -86,8 +86,8 @@ CyVerse Discovery Environment
 #. That opens the data management window 
 #. The navigation bar on the left is where you navigate your folder, public folders, and folders/files shared with you
 #. The menu bar at the top is where you can:
- #. Upload/Download data
- #. Create folders
+   #. Upload/Download data
+  #. Create folders
  #. Share data
 
 ----
