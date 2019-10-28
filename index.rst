@@ -24,14 +24,9 @@ Goal:  Simple steps to get setup with the CyVerse Data Store
 Prerequisites
 -------------
 
-
-
-Downloads, access, and services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 *In order to complete this tutorial you will need access to the following services/software*
 
- .. list-table::
+.. list-table::
    :header-rows: 1
 
    * - Prerequisite
