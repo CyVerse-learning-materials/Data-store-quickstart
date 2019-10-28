@@ -14,10 +14,10 @@ Goal:  Simple steps to get setup with the CyVerse Data Store
 
 .. toctree::
 	:maxdepth: 2
-
-	CyVerse Discovery Environment <self>
-	Cyberduck <self>
-	Command Line <self>
+https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/#cyverse-discovery-environment
+	CyVerse Discovery Environment <self#cyverse-discovery-environment>
+	Cyberduck <self#cyberduck>
+	Command Line <self#command-line>
 
 -----
 
