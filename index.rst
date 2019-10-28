@@ -8,39 +8,16 @@
 **Data Store Quickstart**
 ===================
 
-..
-    #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
-    sharing data ####
 
-Goal
-----
-
-..
-    Avoid covering upstream and downstream steps that are not explicitly and
-    necessarily part of the tutorial - write or link to separate quick
-    starts/tutorials for those parts
-
-..
-    #### Comment: A few sentences (50 words or less) describing the ultimate goal of the steps
-    in this tutorial ####
-
+Goal:  Simple steps to get setup with the CyVerse Data Store
 ----
 
 .. toctree::
 	:maxdepth: 2
 
-	Quickstart home <self>
-	Step Two <step2.rst>
-	Delete this example guide page <example_directives_delete.rst>
-..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes
-	you have an additional page called 'Step Two' with content located in 'step2.rst'
-	Edit these titles and filenames as needed ####
-
-..
-    #### Comment: If you are using the TOC remove the 'summary', 'Additional information,
-    help' and 'Fix or improve this tutorial' from all pages except the last page of the
-    quickstart ####
+	CyVerse Discovery Environment <self>
+	CyberDuck <self>
+	Command Line <self>
 
 -----
 
@@ -64,12 +41,14 @@ Downloads, access, and services
    * - CyVerse account
      - You will need a CyVerse account to complete this exercise
      - |CyVerse User Portal|
-   * - Atmosphere access
-     - You must have access to Atmosphere
-     - |CyVerse User Portal|
+   * - Computer, web browser, and internet access
+     - To access the Discovery Environment (or the Data Store), you will need these things
    * - Cyberduck
      - Standalone software for upload/download to Data Store
      - |Download Cyberduck|
+   * - i-commands  
+     - These are the command line tools to access the data store
+     - | `Mac iCommands Installer 4.1.9 <https://wiki.cyverse.org/wiki/download/attachments/28117338/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472845229000&api=v2>`or `Linux binaries and source <https://files.renci.org/pub/irods/releases/4.1.12/>`
 
 Platform(s)
 ~~~~~~~~~~~
@@ -97,48 +76,6 @@ Platform(s)
       - |Discovery Environment|
       - |DE Manual|
       - |Discovery Environment Guide|
-    * - Atmosphere
-      - Command line (ssh) and/or Desktop (VNC)
-      - |Atmosphere|
-      - |Atmosphere Manual|
-      - |Atmosphere Guide|
-    * - BisQue
-      - Web/Point-and-click and/or Command-line (API)
-      - |BisQue|
-      - |BisQue Manual|
-      - (See Manual)
-    * - DNA Subway
-      - Web/Point-and-click
-      - |DNA Subway|
-      - (See Guide)
-      - |DNA Subway Guide|
-    * - SciApps
-      - Command-line (API)
-      - |SciApps|
-      - (See Guide)
-      - |SciApps Guide|
-    * - Agave API
-      - Command-line (API)
-      - |Agave API|
-      - |Agave Live Docs|
-      - (See Live Docs)
-
-Input and example data
-~~~~~~~~~~~~~~~~~~~~~~
-
-*In order to complete this quickstart you will need to have the following inputs prepared*
-
-.. list-table::
-    :header-rows: 1
-
-    * - Input File(s)
-      - Format
-      - Preparation/Notes
-      - Example Data
-    * -
-      -
-      -
-      -
 
 ----
 
