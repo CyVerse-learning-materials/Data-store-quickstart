@@ -119,6 +119,7 @@ Command Line
 	#. Mac example: ``export PATH="/Applications/icommands/:$PATH"``
 	#. Linux example: ``export PATH="/home/elyons/bin/:$PATH"``
 3. Run iinit and configure irods environment 
+
 +------------+------------+
 | Parameter   | value   |
 +============+============+
@@ -132,7 +133,11 @@ Command Line
 +------------+------------+
 | Password | <your cyverse password   |
 +------------+------------+
-::
+
+Example iinit:
+--------------
+
+.. code:: bash
 
  elyons@air (~) $ iinit
  One or more fields in your iRODS environment file (.irodsEnv) are
@@ -146,9 +151,35 @@ Command Line
  
  Enter your current iRODS password:``
 
+2. ``ils`` get list of files in current working directory in the Data Store
+
+3. ``icd <directory>`` change working directory in the Data Store
+
 4. ``iget <filename>`` will get files from the Data Store
+
+.. code:: bash
+
+        $ iget -r # For recursive transfer of directories and their contents
+
+        $ iget -P # display the progress of the upload
+
+        $ iget -f # force the upload and overwrite
+
+        $ iget -T # Renew socket connection after 10 min (May help connections
+                  # that are failing due to some connection/firewall settings)	  
+		  
 5. ``iput <filename>`` iput will put files from local machine to the Data Store
 
+.. code:: bash
+
+        $ iput -r # For recursive transfer of directories and their contents
+
+        $ iput -P # display the progress of the upload
+
+        $ iput -f # force the upload and overwrite
+
+        $ iput -T # Renew socket connection after 10 min (May help connections
+                  # that are failing due to some connection/firewall settings)
 ----
 
 
@@ -211,12 +242,3 @@ Post your question to the user forum:
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
-
-.. |Github Repo Link|  raw:: html
-
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
-
-
-.. |Download Cyberduck| raw:: html
-
-   <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
