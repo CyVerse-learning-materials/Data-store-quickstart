@@ -114,12 +114,24 @@ You should now be connected to the CyVerse Data Store and viewing the contents o
 Command Line
 ~~~~~~~~~~~~
 
-#. Download and install iCommands following the instructions for `Linux <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-linux>`_ or `Mac <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-mac>`_
-#. Set path for i-command binaries: 
+1. Download and install iCommands following the instructions for `Linux <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-linux>`_ or `Mac <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-mac>`_
+2. Set path for i-command binaries: 
 	#. Mac example: ``export PATH="/Applications/icommands/:$PATH"``
 	#. Linux example: ``export PATH="/home/elyons/bin/:$PATH"``
-#. Run iinit and configure irods environment 
-
+3. Run iinit and configure irods environment 
++------------+------------+
+| Parameter   | value   |
++============+============+
+| DNA | data.cyverse.org   |
++------------+------------+
+| Port | 1247   |
++------------+------------+
+| User name | <CyVerse user name>   |
++------------+------------+
+| Zone | iplant   |
++------------+------------+
+| Password | <your cyverse password   |
++------------+------------+
 ::
 
  elyons@air (~) $ iinit
@@ -134,8 +146,8 @@ Command Line
  
  Enter your current iRODS password:``
 
-#. ``iget <filename>`` will get files from the Data Store
-#. ``iput <filename>`` iput will put files from local machine to the Data Store
+4. ``iget <filename>`` will get files from the Data Store
+5. ``iput <filename>`` iput will put files from local machine to the Data Store
 
 ----
 
