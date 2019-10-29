@@ -114,9 +114,22 @@ You should now be connected to the CyVerse Data Store and viewing the contents o
 Command Line
 ~~~~~~~~~~~~
 
-1. Step one
-2. Step two
+1. Download and install iCommands following the instructions for `Linux <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-linux>`_ or `Mac <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-mac>`_
+2. Set path for i-command binaries: 
+- Mac example: ``export PATH="/Applications/icommands/:$PATH"``
+- Linux example: ``export PATH="/home/elyons/bin/:$PATH"``
+3. Run iinit and configure irods environment
+- ``elyons@air (~) $ iinit
+One or more fields in your iRODS environment file (.irodsEnv) are
+missing; please enter them.
+Enter the host name (DNS) of the server to connect to:data.cyverse.org
+Enter the port number:1247
+Enter your irods user name:elyons
+Enter your irods zone:iplant
+Those values will be added to your environment file (for use by
+other i-commands) if the login succeeds.
 
+Enter your current iRODS password:``
 ----
 
 
