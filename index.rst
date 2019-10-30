@@ -150,11 +150,11 @@ Example iinit:
  
  Enter your current iRODS password:``
 
-2. ``ils`` get list of files in current working directory in the Data Store
+4. ``ils`` get list of files in current working directory in the Data Store
 
-3. ``icd <directory>`` change working directory in the Data Store
+5. ``icd <directory>`` change working directory in the Data Store
 
-4. ``iget <filename>`` will get files from the Data Store
+6. ``iget <filename>`` will get files from the Data Store
 
 .. code:: bash
 
@@ -167,7 +167,7 @@ Example iinit:
         $ iget -T # Renew socket connection after 10 min (May help connections
                   # that are failing due to some connection/firewall settings)	  
 		  
-5. ``iput <filename>`` iput will put files from local machine to the Data Store
+7. ``iput <filename>`` iput will put files from local machine to the Data Store
 
 .. code:: bash
 
