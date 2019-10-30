@@ -73,7 +73,7 @@ Platform(s)
 ----
 
 
-*Get started*
+Get started
 --------------
 
 CyVerse Discovery Environment
@@ -135,7 +135,6 @@ Command Line
 +------------+------------+
 
 Example iinit:
---------------
 
 .. code:: bash
 
@@ -183,7 +182,7 @@ Example iinit:
 ----
 
 
-*Summary*
+Summary
 ~~~~~~~~~~~
 
 You now have the power to move data.  Use your power wisely.
@@ -200,12 +199,6 @@ Search for an answer:
 |CyVerse Learning Center| or
 |CyVerse Wiki|
 
-----
-
-**Fix or improve this documentation**
-
-- On Github: |Github Repo Link|
-- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
 
