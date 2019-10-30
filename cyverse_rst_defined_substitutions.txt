@@ -100,6 +100,10 @@
 
    <a href="https://wiki.cyverse.org" target="blank">CyVerse Wiki</a>
 
+.. |Github Repo Link| raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/Data-store-quickstart/blob/master/index.rst">GitHub Repo</a>
+
 
 .. Comment: images
 
