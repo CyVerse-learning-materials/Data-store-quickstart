@@ -15,7 +15,7 @@ author = 'Eric Lyons'
 version = '1.0'
 release = '1.0'
 
-epub_title = CyVerse_Data_Store
-epub_author = Eric Lyons
-epub_publisher = CyVerse
-epub_copyright = copyright 2019
+epub_title = project
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
