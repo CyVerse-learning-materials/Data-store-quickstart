@@ -39,7 +39,7 @@ Prerequisites
    * - Cyberduck
      - Standalone software for upload/download to Data Store
      - |Download Cyberduck|
-   * - i-commands  
+   * - i-commands
      - These are the command line tools to access the data store
      - | `Mac iCommands Installer 4.1.9 <https://wiki.cyverse.org/wiki/download/attachments/28117338/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472845229000&api=v2>`_ or `Linux binaries and source <https://files.renci.org/pub/irods/releases/4.1.12/>`_
 
@@ -80,13 +80,13 @@ CyVerse Discovery Environment
 ~~~~~~~~~~~~~~~~~~~~~
 
 #. Open a web browser
- 
+
 #. Log into the CyVerse Discovery Environment: https://de.cyverse.org
- 
+
 #. Press the "Data" icon on the left
- 
-#. That opens the data management window 
- 
+
+#. That opens the data management window
+
 #. The navigation bar on the left is where you navigate your folder, public folders, and folders/files shared with you
 #. The menu bar at the top is where you can:
 	#. Upload/Download data
@@ -97,13 +97,13 @@ CyVerse Discovery Environment
 Cyberduck
 ~~~~~~~~~
 
-#. Download and install `Cyberduck <https://cyberduck.io/>`_ 
-#. Download the CyVerse `configuration profile <https://wiki.cyverse.org/wiki/download/attachments/18188197/CyVerseDataStore.cyberduckprofile?version=1&modificationDate=1568665373988&api=v2>`_ .
+#. Download and install `Cyberduck <https://cyberduck.io/>`_
+#. Download the CyVerse `configuration profile <https://cyverse.atlassian.net/wiki/download/attachments/241869843/CyVerseDataStore.cyberduckprofile?version=1&modificationDate=1568640173000&cacheVersion=1&api=v2>`_ .
 	#. Double-click on the downloaded file - this should open the installed Cyberduck software.
 
 #. Enter your **CyVerse username** in the field 'iPlant username'.
 
-#. Under 'Advanced Options' set 'Transfer Files' to **'Open Multiple Connections'**. 
+#. Under 'Advanced Options' set 'Transfer Files' to **'Open Multiple Connections'**.
 
 #. Double-click on the Data Store bookmark in the Cyberduck window. Enter your CyVerse credentials.
 
@@ -115,10 +115,10 @@ Command Line
 ~~~~~~~~~~~~
 
 1. Download and install iCommands following the instructions for `Linux <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-linux>`_ or `Mac <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-mac>`_
-2. Set path for i-command binaries: 
+2. Set path for i-command binaries:
 	#. Mac example: ``export PATH="/Applications/icommands/:$PATH"``
 	#. Linux example: ``export PATH="/home/elyons/bin/:$PATH"``
-3. Run iinit and configure irods environment 
+3. Run iinit and configure irods environment
 
 +------------+------------+
 | Parameter   | value   |
@@ -147,7 +147,7 @@ Example iinit:
  Enter your irods zone:iplant
  Those values will be added to your environment file (for use by
  other i-commands) if the login succeeds.
- 
+
  Enter your current iRODS password:``
 
 4. ``ils`` get list of files in current working directory in the Data Store
@@ -165,8 +165,8 @@ Example iinit:
         $ iget -f # force the upload and overwrite
 
         $ iget -T # Renew socket connection after 10 min (May help connections
-                  # that are failing due to some connection/firewall settings)	  
-		  
+                  # that are failing due to some connection/firewall settings)
+
 7. ``iput <filename>`` iput will put files from local machine to the Data Store
 
 .. code:: bash
@@ -202,6 +202,3 @@ Additional information, help
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`__
-
-
-
