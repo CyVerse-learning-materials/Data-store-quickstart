@@ -181,6 +181,27 @@ Example iinit:
                   # that are failing due to some connection/firewall settings)
 ----
 
+WebDAV mount
+~~~~~~~~~~~~
+
+Note: this is for a Mac
+
+#. Open Finder
+
+#. From the menu at the top of your screen, select "Go"
+
+#. In the dropdown menu, select "Connect to Server..."
+
+#. In the popup window called "Connect to Server" type in ``https://data.cyverse.org/dav/iplant/home/<your CyVerse user name>```
+
+#. Another window will pop up.  For "Connect As:" select "Registered User".  Type in your CyVerse user name for "Name:" and your CyVerse password for "Password"
+
+#. If you logged in successfully, your data store account will be available through Finder.  "data.cyverse.org" will be listed under "Locations" on the right menu in a Finder window
+
+
+
+----
+
 
 Summary
 ~~~~~~~~~~~
