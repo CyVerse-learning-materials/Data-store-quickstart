@@ -114,7 +114,7 @@ You should now be connected to the CyVerse Data Store and viewing the contents o
 Command Line
 ~~~~~~~~~~~~
 
-1. Download and install iCommands following the instructions for `Linux https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-linux`_ , `Mac <https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-mac>`_, or `Windows <https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-other>`_
+1. Download and install iCommands following the instructions for `Linux <https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-linux>`_ , `Mac <https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-mac>`_, or `Windows <https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-other>`_
 2. Set path for i-command binaries:
 	#. Mac example: ``export PATH="/Applications/icommands/:$PATH"``
 	#. Linux example: ``export PATH="/home/elyons/bin/:$PATH"``
